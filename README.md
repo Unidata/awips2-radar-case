@@ -13,9 +13,9 @@ level 3 radar for the 20130531 Oklahoma tornado outbreak. These data can be inge
 
 1. Go to [NCEI's inventory by radar site](https://www.ncdc.noaa.gov/nexradinv/choosesite.jsp)
 2. Select the radar site you are wanting (ex. KTLX) and click <b>Submit</b>
-       ![select radar site](../images/selectRadar.png)
+       ![select radar site](images/selectRadar.png)
 3. Choose the date, select *Level-III (Products) (ALL)* and click <b>Create Graph</b>
-       ![choose date](../images/selectDate.png)
+       ![choose date](images/selectDate.png)
 4. Enter your email address, select the valid times you want data, and click <b>Order Data</b>
 5. Wait anywhere from a few minutes to a few hours and you will get an email.
 6. Repeat for other radars needed.
@@ -25,7 +25,7 @@ level 3 radar for the 20130531 Oklahoma tornado outbreak. These data can be inge
 1. You should receive an email with the link to your data. 
 >Note: Your data will only be available for 5 days before being removed from the ftp server, so make sure to download it right away!
 
-![email](../images/email.png)
+![email](images/email.png)
 
 2. In a terminal, create a directory where you would like to download the data, say `radar_case-20130531/radar_data` and change directories into that directory
 3. Retreive the `fileList.txt` file by one of the following options:
